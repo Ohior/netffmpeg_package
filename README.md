@@ -3,6 +3,9 @@
 This is a simple package to manage FFmpeg commands
 
 ```py
+from netffmpeg.net_ffmpeg import NetDrawText, NetFfmpeg
+from netffmpeg.net_filter import NetFilter, NetOverlayStyles,NetTextStyles
+from netffmpeg.nf_types import MediaCoordinate,NetTimeStamp, InputOverlay
 
 # create text to be drawn
 draw_text = NetDrawText()
