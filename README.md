@@ -56,3 +56,8 @@ draw_overlay = NetFilter.drawOverlay(
     .execute()
 )
 ```
+
+## Pip install 
+```bash
+pip install -i https://test.pypi.org/simple/ netffmpeg
+```
